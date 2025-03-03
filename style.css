@@ -1,0 +1,38 @@
+/* Reset & Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Define CSS Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-main: 'Arial', sans-serif;
+    --spacing: 10px;
+  }
+  
+  /* Using CSS Variables */
+  body {
+    font-family: var(--font-main);
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    margin-bottom: var(--spacing);
+  }
+  
+  button {
+    background: var(--secondary-color);
+    color: white;
+    padding: var(--spacing);
+    border: none;
+    cursor: pointer;
+  }
+  
